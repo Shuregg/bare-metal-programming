@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "openocd",
+            "request": "launch",
+            "type": "cortex-debug",
+            "cwd": "${workspaceRoot}",
+            "servertype": "openocd",
+            "executable": "lab_03/project.elf",
+            "interface": "swd",
+            "configFiles": [
+                "/usr/share/openocd/scripts/interface/stlink.cfg",
+                "/usr/share/openocd/scripts/target/stm32h7x.cfg"
+            ],
+            "showDevDebugOutput": "raw",
+            "svdFile": "STM32H745_CM7.svd"
+        }
+    ]
+}

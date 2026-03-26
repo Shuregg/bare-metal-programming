@@ -1,0 +1,4 @@
+{
+    "cortex-debug.variableUseNaturalFormat": true,
+    "C_Cpp.errorSquiggles": "disabled"
+}
